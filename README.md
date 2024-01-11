@@ -35,7 +35,7 @@ POST /users
     "name": "alim",
     "email": "mailid@alimansari.com",
     "password": "12345678",
-};
+}
 ```
 ---
 #### 2. Login User
@@ -46,7 +46,7 @@ POST /users/login
 {
     "email": "contact@alimansari.com",
     "password": "12345678",
-};
+}
 ```
 ---
 #### 3. Add Product to Store
@@ -60,7 +60,7 @@ HEADERS Authorization:"Bearer < token >"
     "description": "Good Item 1",
     "stock": "20",
     "price": 220,
-};
+}
 ```
 ---
 #### 4. Get a Product in Store
